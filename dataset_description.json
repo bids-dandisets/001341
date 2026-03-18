@@ -1,0 +1,17 @@
+{
+    "Name": "Barrel cortex electrophysiology during tactile VR whisker-guided navigation",
+    "BIDSVersion": "1.10",
+    "HEDVersion": "8.3.0",
+    "Description": "Electrophysiology in the C2 barrel column of wS1 in mice during continuous tactile VR navigation using only the C2 whiskers. Mice are head-fixed on a suspended ball, with two walls placed either side of the mouse. The lateral movement of these walls is coupled in a closed loop real time system to the trajectory of the mouse so that when the mouse moves to the left, the walls move in from the left. This causes them to orient themselves in the middle of the virtual corridor. Mice are presented with turns to the left (contralateral stimulation to recording site) and right (ipsilateral to recording site) in the virtual environment in a completely unrewarded form of a 2AFC task. Trial structure consists of a 100cm closed loop baseline straight running trial, before an open loop 2 second turn to either the left or right. Mouse trajectories (forward and lateral distance and speed) calculated from ball tracking cameras using custom LabVIEW program.",
+    "DatasetType": "raw",
+    "Authors": [],
+    "License": "CC-BY-4.0",
+    "GeneratedBy": [
+        {
+            "Name": "nwb2bids",
+            "Version": "0.9.1.dev27+gf0fb7253c",
+            "Description": "Tool to reorganize NWB files into a BIDS directory layout.",
+            "CodeURL": "https://github.com/con/nwb2bids"
+        }
+    ]
+}
